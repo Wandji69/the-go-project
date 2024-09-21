@@ -24,14 +24,14 @@ func CalculateSum(a, b int) int {
 
 func main()  {
 	// Local variable indentifier count
-	countt := 10
+	count := 10
 
 	//printing Using the identifiers
 	fmt.Println("Count:", count)
 	fmt.Println("Max Retries:", MaxRetries)
 
-	//Using the GithubUser Struct type as for identifer person
-	person:= GithubUser{Login: "John", Name: "Doe", PublicRepos: 7}
+	// Using the GithubUser Struct type as for identifer person
+	person := GithubUser{Login: "John", Name: "Doe", PublicRepos: 7}
 
-	fmt.Println("Perspon:" person)
+	fmt.Println("Person:", person)
 }
